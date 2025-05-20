@@ -20,7 +20,7 @@
     "AUTO_READ_STATUS": {
       "description": "Your contact status will be read automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "GREET": {
       "description": "when enabled it automatically sends  greeting message to members in your pm by mentioning the sender then your greet message",
@@ -40,7 +40,7 @@
     "AUTO_LIKE_STATUS": {
       "description": "Your contact status will be liked automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "AUTOBIO": {
       "description": "This automatically update your bio status.Always make sure you insert your OWNER_NAME since it uses that to update your bio name status",
@@ -95,7 +95,7 @@
     "AUTO_REACT": {
       "description": "if you want your bot to react tp messages ",
       "value": "yes",
-      "required": false
+      "required": true
     },   
     "VOICE_CHATBOT": {
       "description": "when enabled it sends voice chats both in groups and pm",
@@ -120,7 +120,7 @@
     "PUBLIC_MODE": {
       "description": "Set 'yes' to make your bot public or 'no' to keep it private",
       "value": "yes",
-      "required": false
+      "required": true
     },
     "HEROKU_API_KEY": {
       "description": "Insert your Heroku API key (required)",
@@ -145,12 +145,12 @@
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
       "value": "",
-      "required": true
+      "required": true 
     },
     "AUTO_READ_MESSAGES": {
       "description": "yes toactivate no to deactivate",
       "value": "yes",
-      "required": false  
+      "required": true 
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '254796299159')",
@@ -190,7 +190,7 @@
     "AUTO_REACT": {
       "description": "Set 'yes' to enable bot reactions to messages in private chats",
       "value": "no",
-      "required": false
+      "required": true 
     }
   },
   "formation": {
