@@ -46,7 +46,7 @@ module.exports = { session: process.env.SESSION_ID || 'ALPHA;;;H4sIAAAAAAAAA61Vy
     WARN_COUNT : process.env.WARN_COUNT || '3' ,
     ETAT : process.env.PRESENCE || '1',
     DP : process.env.STARTING_BOT_MESSAGE || "no",
-    ADM : process.env.ANTI_DELETE_MESSAGE || 'no',
+    ADM : process.env.ANTI_DELETE_MESSAGE || 'yes',
     ANTICALL: process.env.ANTICALL || 'yes',              
     DATABASE_URL,
     DATABASE: DATABASE_URL === databasePath
