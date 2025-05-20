@@ -38,7 +38,7 @@ module.exports = { session: process.env.SESSION_ID || 'ALPHA;;;H4sIAAAAAAAAA61Vy
     EVENTS :process.env.EVENTS || "yes",
     CAPTION : process.env.CAPTION || "ALPHA-MD",
     BOT : process.env.BOT_NAME || 'ALPHA_MD',
-    MODE: process.env.PUBLIC_MODE || "no",              
+    MODE: process.env.PUBLIC_MODE || "yes",              
     TIMEZONE: process.env.TIMEZONE || "Africa/Nairobi", 
     PM_PERMIT: process.env.PM_PERMIT || 'no',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME || null,
