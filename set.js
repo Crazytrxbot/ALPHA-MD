@@ -25,7 +25,7 @@ module.exports = { session: process.env.SESSION_ID || 'ALPHA;;;H4sIAAAAAAAAA61Vy
    GREET_MSG: process.env.GREET_MSG || "Huskii am unavailable mzee 😂",               
     AUTO_READ_MESSAGES: process.env.AUTO_READ_MESSAGES || "yes",
     AUTO_BLOCK: process.env.AUTO_BLOCK || 'no', 
-    GCF: process.env.GROUP_CONTROL || 'no', 
+    GCF: process.env.GROUP_CONTROL || 'yes', 
     GREET : process.env.GREET || "yes", 
     VOICE_CHATBOT: process.env.VOICE_CHATBOT || 'no',
     VOICE_CHATBOT_INBOX: process.env.VOICE_CHATBOT_INBOX || 'yes',
